@@ -4,8 +4,8 @@ from utils.config_helper import get_var, save_var, extract_by_json
 import requests, json, urllib.parse
 from pathlib import Path
 
-# tests/test_core.py
-df = EXCEL_PATH = Path(__file__).with_name("CRM.xlsx")
+EXCEL_PATH = Path(__file__).with_name("CRM.xlsx")
+df = pd.read_excel(EXCEL_PATH, sheet_name="CS")
 
 df = pd.read_excel("CRM.xlsx", sheet_name="CS")
 df.columns = df.columns.str.strip()
