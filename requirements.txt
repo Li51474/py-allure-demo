@@ -2,3 +2,4 @@ pytest
 allure-pytest
 pandas
 requests
+PyYAML
