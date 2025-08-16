@@ -3,3 +3,4 @@ allure-pytest
 pandas
 requests
 PyYAML
+jsonpath-ng
