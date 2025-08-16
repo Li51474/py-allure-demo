@@ -11,7 +11,7 @@ pipeline {
         /* Allure 结果目录（pytest 指定） */
         ALLURE_RESULTS = 'allure-results'
         /* 收件人邮箱（如不需要可删除） */
-        EMAIL_TO      = 'your-team@company.com'
+        EMAIL_TO      = '2149251474@qq.com'
     }
 
     /* 3. 阶段 */
