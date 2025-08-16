@@ -3,7 +3,7 @@ import pandas as pd
 from utils.config_helper import get_var, save_var, extract_by_json
 import requests, json, urllib.parse
 
-df = pd.read_excel("CRM悟空测试用例.xlsx", sheet_name="CS")
+df = pd.read_excel("CRM.xlsx", sheet_name="CS")
 df.columns = df.columns.str.strip()
 df = df.loc[:, ~df.columns.duplicated()]
 COL = {"编号": "id", "描述": "desc", "请求url": "url", "请求方式": "method", "请求头": "headers",
