@@ -1,11 +1,4 @@
-# 测试框架
 pytest
 allure-pytest
-
-# 数据处理
 pandas
-
-# HTTP 请求
 requests
-
-# JSON 处理（标准库 json 已自带，无需 pip）
