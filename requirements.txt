@@ -4,3 +4,4 @@ pandas
 requests
 PyYAML
 jsonpath-ng
+openpyxl
