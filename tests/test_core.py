@@ -5,7 +5,7 @@ import requests, json, urllib.parse
 from pathlib import Path
 
 # tests/test_core.py
-EXCEL_PATH = Path(__file__).with_name("CRM.xlsx")
+df = EXCEL_PATH = Path(__file__).with_name("CRM.xlsx")
 
 df = pd.read_excel("CRM.xlsx", sheet_name="CS")
 df.columns = df.columns.str.strip()
